@@ -13,3 +13,4 @@ Small python program, uses MOEA to find best permutation of cost and score for a
   - run main.py with interpreter arguments -m scoop
 
 
+![](NRP4 Results.gif)

@@ -1,0 +1,19 @@
+Liam Devlin
+Multi-Objective Optimisation Report
+Multi-objective optimisation is a method of performing genetic computations with more than one desired goal. The nature of MOEA (Multi-Objective Evolutionary Algorithms) means that no one ‘fittest’ solution can be found as with a single objective solution. Instead a group of candidates are presented along an optimised ‘front’, with each individual favouring one of the defined fitness values. With this knowledge we were tasked to provide a solution to the Next Release Problem (NRP).
+
+Chapter 1 : Overview of the problem: 
+Our task was to create a permutation of features which would simultaneously please the most amount of customers for the lowest cost possible.The data with which we used to perform this calculation took the form of a simple txt file containing a list of requirements and their associated costs, as well as a list of “customers” with one customer being comprised of; their financial investment, the customers number of requirements and finally the list of their requirements. The requirements in this scenario are a simple array, where the index is indicative of the requirements name or Id, and the value at said index being the associated cost to implement the feature.
+
+Given that we already have the requirement vector from parsing the data, we are left with finding the score and cost vector for each permutation of requirements. These vectors will be used to provide the final fitness values in the evaluation stage of the program
+
+
+Chapter 2 : Implementation: 
+-mention the whole thing in one file due to multi-threading
+-how we calculate the score vector and cost vector
+-how does the program work? (evaluation and the other DEAP bull crap) 
+- Single objective evalutation
+-- Random 
+
+
+Chapter 3 : Results
